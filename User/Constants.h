@@ -1,0 +1,20 @@
+#ifndef CONSTANTS_H
+#define CONSTANTS_H
+
+
+// KEYCODES
+#define MOVE_LEFT 5
+#define MOVE_RIGHT 7
+#define MOVE_UP 2
+#define MOVE_DOWN 6
+#define RELAOD_GAME 4
+#define OPEN_CELL 3
+#define FLAG_CELL 1
+
+#define DISPLAY_HEIGHT 320
+#define DISPLAY_WIDTH 240
+#define FIELD_SIZE 10
+#define SMILE_SIZE 30
+#define CELL_SIZE_PIXEL (DISPLAY_WIDTH / FIELD_SIZE)
+
+#endif
